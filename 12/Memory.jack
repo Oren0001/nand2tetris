@@ -1,0 +1,119 @@
+// This file is part of nand2tetris, as taught in The Hebrew University,
+// and was written by Aviv Yaish, and is published under the Creative 
+// Common Attribution-NonCommercial-ShareAlike 3.0 Unported License 
+// https://creativecommons.org/licenses/by-nc-sa/3.0/
+// It is an extension to the specifications given in  
+// https://www.nand2tetris.org (Shimon Schocken and Noam Nisan, 2017)
+// as allowed by the Creative Common Attribution-NonCommercial-ShareAlike 3.0 
+// File name: projects/12/Memory.jack
+
+/**
+ * This library provides two services: direct access to the computer's main
+ * memory (RAM), and allocation and recycling of memory blocks. The Hack RAM
+ * consists of 32,768 words, each holding a 16-bit binary number.
+ */ 
+class Memory {
+
+    static Array ram;
+	static Array freeList;
+
+    /** Initializes the class. */
+    function void init() {
+        let ram = 0;
+		let freeList = 2048;
+		let freeList[0] = 16383 - 2048; // heap size
+		let freeList[1] = null; // next
+		return;
+    }
+
+    /** Returns the RAM value at the given address. */
+    function int peek(int address) {
+        return ram[address];
+    }
+
+    /** Sets the RAM value at the given address to the given value. */
+    function void poke(int address, int value) {
+        let ram[address] = value;
+		return;
+    }
+
+
+    /** Finds an available RAM block of the given size and returns
+     *  a reference to its base address. */
+    function int alloc(int size) {
+        var Array address, next, prev;
+		var int listSize, temp;
+		let listSize = freeList[0];
+		if (size < listSize) {
+		    let freeList[0] = size + 1;
+			let address = freeList + 1;
+
+			let freeList = freeList + (size + 1);
+			let freeList[0] = listSize - (size + 1);
+			let freeList[1] = null;
+
+			return address;
+		}
+		else {
+		    let prev = freeList;
+			let next = freeList[1];
+			let listSize = next[0];
+
+            // first fit
+			while ((size > listSize) & ~(next = null)) {
+				let prev = next;
+				let next = next[1];
+				let listSize = next[0];
+			}
+
+			if (size < listSize) {
+			    let next[0] = size + 1;
+				let address = next + 1;
+
+				let temp = next[1];
+				let next = next + (size + 1);
+				let next[0] = listSize - (size + 1);
+				let next[1] = temp;
+
+				let prev[1] = next;
+				return address;
+			}
+			else {
+				return -1;
+			}
+		}
+    }
+
+    /** De-allocates the given object (cast as an array) by making
+     *  it available for future allocations. */
+    function void deAlloc(Array o) {
+        var Array last;
+		let last = freeList;
+
+		// find the last item in freeList
+		while (~(last[1] = null)) {
+			let last = last[1];
+		}
+
+		let last[1] = o - 1;
+		let o[0] = null;
+		return;
+    }    
+
+    /** Returns the maximal element contained in the given Array/object. */
+	function int max(Array o) {
+	    var int i, size, _max;
+	    let _max = o[0];
+	    let size = o[-1] - 1;
+	    let i = 1;
+
+	    while (i < size) {
+	        if (o[i] > _max) {
+	            let _max = o[i];
+	        }
+	        let i = i + 1;
+	    }
+
+	    return _max;
+    }
+}

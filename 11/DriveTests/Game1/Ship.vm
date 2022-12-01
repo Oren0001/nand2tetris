@@ -1,0 +1,283 @@
+function Ship.new 0
+push constant 7
+call Memory.alloc 1
+pop pointer 0
+push argument 0
+pop this 0
+push argument 1
+pop this 1
+push argument 2
+pop this 2
+push argument 3
+pop this 3
+push argument 4
+pop this 4
+push argument 5
+pop this 5
+push argument 6
+pop this 6
+push constant 0
+pop static 0
+push constant 512
+pop static 1
+push pointer 0
+return
+function Ship.dispose 0
+push argument 0
+pop pointer 0
+push pointer 0
+push this 0
+push this 1
+push constant 0
+call Ship.draw_Ship 4
+pop temp 0
+push pointer 0
+call Memory.deAlloc 1
+pop temp 0
+push constant 0
+return
+function Ship.draw_Ship 0
+push argument 0
+pop pointer 0
+push argument 3
+call Screen.setColor 1
+pop temp 0
+push argument 3
+not
+if-goto 0
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+push argument 2
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+add
+push argument 2
+push this 3
+push constant 2
+call Math.divide 2
+add
+call Screen.drawRectangle 4
+pop temp 0
+goto 1
+label 0
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+push argument 2
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+add
+push argument 2
+push this 3
+push constant 2
+call Math.divide 2
+push constant 1
+sub
+add
+call Screen.drawRectangle 4
+pop temp 0
+label 1
+push argument 1
+push this 2
+push constant 5
+call Math.divide 2
+sub
+push argument 2
+push this 3
+sub
+push constant 10
+add
+push argument 1
+push this 2
+push constant 5
+call Math.divide 2
+add
+push argument 2
+push this 3
+push constant 2
+call Math.divide 2
+add
+call Screen.drawRectangle 4
+pop temp 0
+push argument 1
+push this 2
+push constant 16
+call Math.divide 2
+sub
+push constant 5
+add
+push argument 2
+push this 3
+sub
+push argument 1
+push this 2
+push constant 16
+call Math.divide 2
+push constant 3
+add
+add
+push argument 2
+push this 3
+sub
+push constant 10
+add
+call Screen.drawRectangle 4
+pop temp 0
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+push constant 8
+add
+push argument 2
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+push constant 8
+add
+push argument 2
+push constant 10
+sub
+call Screen.drawLine 4
+pop temp 0
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+push constant 4
+add
+push argument 2
+push constant 10
+sub
+push argument 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+push constant 8
+add
+push argument 2
+push constant 7
+sub
+call Screen.drawRectangle 4
+pop temp 0
+push constant 0
+return
+function Ship.draw 0
+push argument 0
+pop pointer 0
+push pointer 0
+push this 0
+push this 1
+push constant 0
+not
+call Ship.draw_Ship 4
+pop temp 0
+push constant 0
+return
+function Ship.move 2
+push argument 0
+pop pointer 0
+push constant 0
+pop local 0
+push this 0
+pop local 1
+push argument 1
+push constant 0
+gt
+not
+if-goto 2
+push this 0
+push this 4
+add
+push static 1
+push this 2
+push constant 2
+call Math.divide 2
+sub
+lt
+not
+if-goto 4
+push this 0
+push this 4
+add
+pop this 0
+push constant 0
+not
+pop local 0
+goto 5
+label 4
+label 5
+goto 3
+label 2
+push this 0
+push this 4
+sub
+push static 0
+push this 2
+push constant 2
+call Math.divide 2
+add
+gt
+not
+if-goto 6
+push this 0
+push this 4
+sub
+pop this 0
+push constant 0
+not
+pop local 0
+goto 7
+label 6
+label 7
+label 3
+push local 0
+not
+if-goto 8
+push pointer 0
+push local 1
+push this 1
+push constant 0
+call Ship.draw_Ship 4
+pop temp 0
+push constant 0
+pop local 0
+push pointer 0
+push this 0
+push this 1
+push constant 0
+not
+call Ship.draw_Ship 4
+pop temp 0
+goto 9
+label 8
+label 9
+push constant 0
+return
+function Ship.shoot 0
+push argument 0
+pop pointer 0
+push this 0
+push this 1
+push this 3
+push constant 1
+add
+add
+push this 5
+push this 6
+call Bomb.new 4
+return

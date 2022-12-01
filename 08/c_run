@@ -1,0 +1,17 @@
+./VMtranslator ./ProgramFlow/BasicLoop
+./VMtranslator ./ProgramFlow/FibonacciSeries
+./VMtranslator ./FunctionCalls/FibonacciElement
+./VMtranslator ./FunctionCalls/NestedCall
+./VMtranslator ./FunctionCalls/SimpleFunction
+./VMtranslator ./FunctionCalls/StaticsTest
+
+./VMtranslator ./DriveTests/Pong
+./VMtranslator ./DriveTests/Reversi
+./VMtranslator ./DriveTests/Reversi2
+./VMtranslator ./DriveTests/Snake
+./VMtranslator ./DriveTests/T3
+./VMtranslator ./DriveTests/test
+./VMtranslator ./DriveTests/test1
+./VMtranslator ./DriveTests/test2
+./VMtranslator ./DriveTests/test3
+./VMtranslator ./DriveTests/test4

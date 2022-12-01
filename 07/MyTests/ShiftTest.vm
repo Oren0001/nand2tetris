@@ -1,0 +1,12 @@
+push constant 16000
+shiftright
+push constant 0
+shiftleft
+shiftright
+push constant 10
+shiftleft
+shiftright
+shiftright
+shiftright
+shiftright
+shiftleft

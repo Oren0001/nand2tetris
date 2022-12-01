@@ -1,0 +1,426 @@
+function Graphics.drawEmptyRect 0
+push argument 0
+push argument 1
+push argument 0
+push argument 3
+call Screen.drawRectangle 4
+pop temp 0
+push argument 0
+push argument 1
+push argument 2
+push argument 1
+call Screen.drawRectangle 4
+pop temp 0
+push argument 0
+push argument 3
+push argument 2
+push argument 3
+call Screen.drawRectangle 4
+pop temp 0
+push argument 2
+push argument 1
+push argument 2
+push argument 3
+call Screen.drawRectangle 4
+pop temp 0
+push constant 0
+return
+function Graphics.drawCar 0
+push argument 2
+not
+if-goto 0
+push argument 3
+not
+call Screen.setColor 1
+pop temp 0
+push argument 0
+push constant 40
+add
+push argument 1
+push constant 11
+add
+push argument 0
+push constant 40
+add
+push argument 1
+push constant 29
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 3
+call Screen.setColor 1
+pop temp 0
+push argument 0
+push constant 10
+add
+push argument 1
+push constant 10
+add
+push argument 0
+push constant 70
+add
+push argument 1
+push constant 30
+add
+call Graphics.drawEmptyRect 4
+pop temp 0
+push argument 0
+push constant 25
+add
+push argument 1
+push constant 15
+add
+push argument 0
+push constant 50
+add
+push argument 1
+push constant 25
+add
+call Graphics.drawEmptyRect 4
+pop temp 0
+goto 1
+label 0
+push argument 3
+not
+call Screen.setColor 1
+pop temp 0
+push argument 0
+push constant 11
+add
+push argument 1
+push constant 40
+add
+push argument 0
+push constant 29
+add
+push argument 1
+push constant 40
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 3
+call Screen.setColor 1
+pop temp 0
+push argument 0
+push constant 10
+add
+push argument 1
+push constant 10
+add
+push argument 0
+push constant 30
+add
+push argument 1
+push constant 70
+add
+call Graphics.drawEmptyRect 4
+pop temp 0
+push argument 0
+push constant 15
+add
+push argument 1
+push constant 25
+add
+push argument 0
+push constant 25
+add
+push argument 1
+push constant 50
+add
+call Graphics.drawEmptyRect 4
+pop temp 0
+label 1
+push constant 0
+return
+function Graphics.drawTruck 0
+push argument 2
+not
+if-goto 2
+goto 3
+label 2
+label 3
+push constant 0
+return
+function Graphics.drawRedCar 0
+push constant 0
+return
+function Graphics.drawArrowCursor 2
+push argument 4
+not
+call Screen.setColor 1
+pop temp 0
+push argument 2
+not
+if-goto 4
+push argument 1
+push constant 20
+add
+pop local 1
+push argument 3
+not
+if-goto 6
+push argument 0
+push constant 2
+add
+pop local 0
+push local 0
+push local 1
+push local 0
+push constant 6
+add
+push local 1
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+add
+push local 1
+push constant 3
+sub
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+add
+push local 1
+push constant 3
+add
+call Screen.drawLine 4
+pop temp 0
+goto 7
+label 6
+push argument 0
+push constant 38
+add
+pop local 0
+push local 0
+push local 1
+push local 0
+push constant 6
+sub
+push local 1
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+sub
+push local 1
+push constant 3
+sub
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+sub
+push local 1
+push constant 3
+add
+call Screen.drawLine 4
+pop temp 0
+label 7
+goto 5
+label 4
+push argument 0
+push constant 20
+add
+pop local 0
+push argument 3
+not
+if-goto 8
+push argument 1
+push constant 2
+add
+pop local 1
+push local 0
+push local 1
+push local 0
+push local 1
+push constant 6
+add
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+sub
+push local 1
+push constant 3
+add
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+add
+push local 1
+push constant 3
+add
+call Screen.drawLine 4
+pop temp 0
+goto 9
+label 8
+push argument 1
+push constant 38
+add
+pop local 1
+push local 0
+push local 1
+push local 0
+push local 1
+push constant 6
+sub
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+sub
+push local 1
+push constant 3
+sub
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push constant 3
+add
+push local 1
+push constant 3
+sub
+call Screen.drawLine 4
+pop temp 0
+label 9
+label 5
+push constant 0
+return
+function Graphics.drawCrossHairs 0
+push argument 2
+not
+call Screen.setColor 1
+pop temp 0
+push argument 0
+push constant 1
+add
+push argument 1
+push constant 1
+add
+push argument 0
+push constant 1
+add
+push argument 1
+push constant 5
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 2
+add
+push argument 1
+push constant 1
+add
+push argument 0
+push constant 5
+add
+push argument 1
+push constant 1
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 39
+add
+push argument 1
+push constant 1
+add
+push argument 0
+push constant 35
+add
+push argument 1
+push constant 1
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 39
+add
+push argument 1
+push constant 1
+add
+push argument 0
+push constant 39
+add
+push argument 1
+push constant 5
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 1
+add
+push argument 1
+push constant 35
+add
+push argument 0
+push constant 1
+add
+push argument 1
+push constant 39
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 1
+add
+push argument 1
+push constant 39
+add
+push argument 0
+push constant 5
+add
+push argument 1
+push constant 39
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 39
+add
+push argument 1
+push constant 35
+add
+push argument 0
+push constant 39
+add
+push argument 1
+push constant 39
+add
+call Screen.drawLine 4
+pop temp 0
+push argument 0
+push constant 35
+add
+push argument 1
+push constant 39
+add
+push argument 0
+push constant 39
+add
+push argument 1
+push constant 39
+add
+call Screen.drawLine 4
+pop temp 0
+push constant 0
+return

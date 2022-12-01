@@ -1,0 +1,9 @@
+class valid {
+
+     function void main() {
+        if (game_stat & (level> -1)) {
+
+        }
+        return;
+   }
+}

@@ -1,0 +1,39 @@
+## MyTests
+./JackCompiler MyTests/basic.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh MyTests/valid.jack
+
+## Seven
+./JackCompiler Seven/Main.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Seven/ValidMain.jack
+
+## ConvertToBin
+./JackCompiler ConvertToBin/Main.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh ConvertToBin/ValidMain.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh ConvertToBin/Valid/Main.jack
+
+## Square
+./JackCompiler Square
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Square/Valid
+
+## Average
+./JackCompiler Average/Main.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Average/Valid/Main.jack
+
+## Pong
+./JackCompiler Pong
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Pong/Valid
+
+## ComplexArrays
+./JackCompiler ComplexArrays
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh ComplexArrays/Valid
+
+## DriveTests
+./JackCompiler DriveTests/Game1
+./JackCompiler DriveTests/Game2
+./JackCompiler DriveTests/Game3
+./JackCompiler DriveTests/ShiftTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh DriveTests/Game1/Valid
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh DriveTests/Game2/Valid
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh DriveTests/Game3/Valid
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh DriveTests/ShiftTest/Valid

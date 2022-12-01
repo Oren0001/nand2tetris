@@ -1,0 +1,15 @@
+class valid {
+
+     function void main() {
+        var Array a;
+        var int length;
+        var int i, sum;
+
+        let length = 2;
+        do Array.new(length);
+        let i = 0;
+        let sum = sum + a[i];
+
+        return;
+   }
+}

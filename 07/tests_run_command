@@ -1,0 +1,10 @@
+./VMtranslator ./MemoryAccess/BasicTest
+./VMtranslator ./MemoryAccess/PointerTest
+./VMtranslator ./MemoryAccess/StaticTest
+./VMtranslator ./StackArithmetic/SimpleAdd
+./VMtranslator ./StackArithmetic/StackTest
+./VMtranslator ./DriveTests/StackTestOverFlow
+./VMtranslator ./DriveTests/T1
+./VMtranslator ./DriveTests/T2
+./VMtranslator ./DriveTests/T3
+./VMtranslator ./MyTests/ShiftTest.vm

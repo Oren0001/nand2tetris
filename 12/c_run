@@ -1,0 +1,281 @@
+tar cvf project12.tar README Array.jack Keyboard.jack Math.jack Memory.jack Output.jack Screen.jack String.jack Sys.jack
+
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm ArrayTest
+mv Keyboard.vm ArrayTest
+mv Math.vm ArrayTest
+mv Memory.vm ArrayTest
+mv Output.vm ArrayTest
+mv Screen.vm ArrayTest
+mv String.vm ArrayTest
+mv Sys.vm ArrayTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm KeyboardTest
+mv Keyboard.vm KeyboardTest
+mv Math.vm KeyboardTest
+mv Memory.vm KeyboardTest
+mv Output.vm KeyboardTest
+mv Screen.vm KeyboardTest
+mv String.vm KeyboardTest
+mv Sys.vm KeyboardTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm MathTest
+mv Keyboard.vm MathTest
+mv Math.vm MathTest
+mv Memory.vm MathTest
+mv Output.vm MathTest
+mv Screen.vm MathTest
+mv String.vm MathTest
+mv Sys.vm MathTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm OutputTest
+mv Keyboard.vm OutputTest
+mv Math.vm OutputTest
+mv Memory.vm OutputTest
+mv Output.vm OutputTest
+mv Screen.vm OutputTest
+mv String.vm OutputTest
+mv Sys.vm OutputTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm ScreenTest
+mv Keyboard.vm ScreenTest
+mv Math.vm ScreenTest
+mv Memory.vm ScreenTest
+mv Output.vm ScreenTest
+mv Screen.vm ScreenTest
+mv String.vm ScreenTest
+mv Sys.vm ScreenTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm StringTest
+mv Keyboard.vm StringTest
+mv Math.vm StringTest
+mv Memory.vm StringTest
+mv Output.vm StringTest
+mv Screen.vm StringTest
+mv String.vm StringTest
+mv Sys.vm StringTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm SysTest
+mv Keyboard.vm SysTest
+mv Math.vm SysTest
+mv Memory.vm SysTest
+mv Output.vm SysTest
+mv Screen.vm SysTest
+mv String.vm SysTest
+mv Sys.vm SysTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm MemoryTest
+mv Keyboard.vm MemoryTest
+mv Math.vm MemoryTest
+mv Memory.vm MemoryTest
+mv Output.vm MemoryTest
+mv Screen.vm MemoryTest
+mv String.vm MemoryTest
+mv Sys.vm MemoryTest
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm MemoryTest/MemoryDiag
+mv Keyboard.vm MemoryTest/MemoryDiag
+mv Math.vm MemoryTest/MemoryDiag
+mv Memory.vm MemoryTest/MemoryDiag
+mv Output.vm MemoryTest/MemoryDiag
+mv Screen.vm MemoryTest/MemoryDiag
+mv String.vm MemoryTest/MemoryDiag
+mv Sys.vm MemoryTest/MemoryDiag
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm MemoryTest/MemoryMaxTest
+mv Keyboard.vm MemoryTest/MemoryMaxTest
+mv Math.vm MemoryTest/MemoryMaxTest
+mv Memory.vm MemoryTest/MemoryMaxTest
+mv Output.vm MemoryTest/MemoryMaxTest
+mv Screen.vm MemoryTest/MemoryMaxTest
+mv String.vm MemoryTest/MemoryMaxTest
+mv Sys.vm MemoryTest/MemoryMaxTest
+
+************************************************** DRIVE START **********************************************
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm DriveTests/MemoryTest
+mv Keyboard.vm DriveTests/MemoryTest
+mv Math.vm DriveTests/MemoryTest
+mv Memory.vm DriveTests/MemoryTest
+mv Output.vm DriveTests/MemoryTest
+mv Screen.vm DriveTests/MemoryTest
+mv String.vm DriveTests/MemoryTest
+mv Sys.vm DriveTests/MemoryTest
+
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm DriveTests/MemoryTest2
+mv Keyboard.vm DriveTests/MemoryTest2
+mv Math.vm DriveTests/MemoryTest2
+mv Memory.vm DriveTests/MemoryTest2
+mv Output.vm DriveTests/MemoryTest2
+mv Screen.vm DriveTests/MemoryTest2
+mv String.vm DriveTests/MemoryTest2
+mv Sys.vm DriveTests/MemoryTest2
+
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm DriveTests/MemoryTest3
+mv Keyboard.vm DriveTests/MemoryTest3
+mv Math.vm DriveTests/MemoryTest3
+mv Memory.vm DriveTests/MemoryTest3
+mv Output.vm DriveTests/MemoryTest3
+mv Screen.vm DriveTests/MemoryTest3
+mv String.vm DriveTests/MemoryTest3
+mv Sys.vm DriveTests/MemoryTest3
+
+
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm DriveTests/StringTest
+mv Keyboard.vm DriveTests/StringTest
+mv Math.vm DriveTests/StringTest
+mv Memory.vm DriveTests/StringTest
+mv Output.vm DriveTests/StringTest
+mv Screen.vm DriveTests/StringTest
+mv String.vm DriveTests/StringTest
+mv Sys.vm DriveTests/StringTest
+
+************************************************** Pong **********************************************
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm Pong/Valid
+mv Keyboard.vm Pong/Valid
+mv Math.vm Pong/Valid
+mv Memory.vm Pong/Valid
+mv Output.vm Pong/Valid
+mv Screen.vm Pong/Valid
+mv String.vm Pong/Valid
+mv Sys.vm Pong/Valid
+
+************************************************** My Test **********************************************
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh MyTest
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Array.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Keyboard.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Math.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Memory.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Output.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Screen.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh String.jack
+/home/oren503/Desktop/nand2tetris/tools/JackCompiler.sh Sys.jack
+mv Array.vm MyTest
+mv Keyboard.vm MyTest
+mv Math.vm MyTest
+mv Memory.vm MyTest
+mv Output.vm MyTest
+mv Screen.vm MyTest
+mv String.vm MyTest
+mv Sys.vm MyTest

@@ -1,0 +1,123 @@
+#### ExpreesionLessSquare
+./JackAnalyzer ./ExpressionLessSquare
+
+## T.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ExpressionLessSquare/OGMainT.xml ExpressionLessSquare/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ExpressionLessSquare/OGSquareT.xml ExpressionLessSquare/Square.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ExpressionLessSquare/OGSquareGameT.xml ExpressionLessSquare/SquareGame.xml
+
+## .xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ExpressionLessSquare/OGMain.xml ExpressionLessSquare/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ExpressionLessSquare/OGSquare.xml ExpressionLessSquare/Square.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ExpressionLessSquare/OGSquareGame.xml ExpressionLessSquare/SquareGame.xml
+
+
+#### Square
+./JackAnalyzer ./Square
+## T.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh Square/OGMainT.xml Square/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh Square/OGSquareT.xml Square/Square.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh Square/OGSquareGameT.xml Square/SquareGame.xml
+
+## .xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh Square/OGMain.xml Square/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh Square/OGSquare.xml Square/Square.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh Square/OGSquareGame.xml Square/SquareGame.xml
+
+
+#### ArrayTest
+./JackAnalyzer ./ArrayTest
+## T.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ArrayTest/OGMainT.xml ArrayTest/Main.xml
+
+## .xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh ArrayTest/OGMain.xml ArrayTest/Main.xml
+
+
+#### DriveTests
+./JackAnalyzer ./DriveTests/for_exam
+./JackAnalyzer ./DriveTests/Game1
+./JackAnalyzer ./DriveTests/Game2
+./JackAnalyzer ./DriveTests/Game3
+./JackAnalyzer ./DriveTests/IfDo
+
+## for_exam
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/for_exam/OGMain.xml DriveTests/for_exam/Main.xml
+
+## Game1
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game1/OGBomb.xml DriveTests/Game1/Bomb.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game1/OGMain.xml DriveTests/Game1/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game1/OGOpening.xml DriveTests/Game1/Opening.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game1/OGSea.xml DriveTests/Game1/Sea.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game1/OGShip.xml DriveTests/Game1/Ship.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game1/OGSubMarine.xml DriveTests/Game1/SubMarine.xml
+
+## Game2
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game2/OGBullet.xml DriveTests/Game2/Bullet.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game2/OGMain.xml DriveTests/Game2/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game2/OGShcortz.xml DriveTests/Game2/Shcortz.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game2/OGTank.xml DriveTests/Game2/Tank.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game2/OGTerrain.xml DriveTests/Game2/Terrain.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game2/OGTrigo.xml DriveTests/Game2/Trigo.xml
+
+## Game3
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game3/OGBoard.xml DriveTests/Game3/Board.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game3/OGGame.xml DriveTests/Game3/Game.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game3/OGGraphics.xml DriveTests/Game3/Graphics.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game3/OGMain.xml DriveTests/Game3/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game3/OGPresets.xml DriveTests/Game3/Presets.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Game3/OGRushHourGraphics.xml DriveTests/Game3/RushHourGraphics.xml
+
+## IfDo
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGClassIden.xml DriveTests/IfDo/ClassIden.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGClose.xml DriveTests/IfDo/Close.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGComment.xml DriveTests/IfDo/Comment.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGEmptyIf.xml DriveTests/IfDo/EmptyIf.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGExpreList.xml DriveTests/IfDo/ExpreList.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGFunBegin.xml DriveTests/IfDo/FunBegin.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGIfDo.xml DriveTests/IfDo/IfDo.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGIfElse.xml DriveTests/IfDo/IfElse.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGIfLong.xml DriveTests/IfDo/IfLong.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGMethCall.xml DriveTests/IfDo/MethCall.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGMinus.xml DriveTests/IfDo/Minus.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGOpAndOp.xml DriveTests/IfDo/OpAndOp.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGOpCheck.xml DriveTests/IfDo/OpCheck.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGPrintString.xml DriveTests/IfDo/PrintString.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGStatic.xml DriveTests/IfDo/Static.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGStringComment.xml DriveTests/IfDo/StringComment.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGStringConstant.xml DriveTests/IfDo/StringConstant.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGStringPar.xml DriveTests/IfDo/StringPar.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGStringTab.xml DriveTests/IfDo/StringTab.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGsymbolName.xml DriveTests/IfDo/symbolName.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGUnary.xml DriveTests/IfDo/Unary.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGUnderScore.xml DriveTests/IfDo/UnderScore.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGWhileIf.xml DriveTests/IfDo/WhileIf.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/IfDo/OGWhiteSpace.xml DriveTests/IfDo/WhiteSpace.xml
+
+## More
+./JackAnalyzer ./DriveTests/Average
+./JackAnalyzer ./DriveTests/ComplexArrays
+./JackAnalyzer ./DriveTests/ConvertToBin
+./JackAnalyzer ./DriveTests/Seven
+./JackAnalyzer ./DriveTests/test1
+./JackAnalyzer ./DriveTests/test2
+./JackAnalyzer ./DriveTests/test3
+./JackAnalyzer ./DriveTests/test4
+./JackAnalyzer ./DriveTests/test5
+
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Average/OGMain.xml DriveTests/Average/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/ComplexArrays/OGMain.xml DriveTests/ComplexArrays/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/ConvertToBin/OGMain.xml DriveTests/ConvertToBin/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/Seven/OGMain.xml DriveTests/Seven/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test1/OGMain.xml DriveTests/test1/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test2/OGMain.xml DriveTests/test2/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test3/OGMain.xml DriveTests/test3/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test4/OGMain.xml DriveTests/test4/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test4/OGStata.xml DriveTests/test4/Stata.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test4/OGStatb.xml DriveTests/test4/Statb.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test5/OGMain.xml DriveTests/test5/Main.xml
+/home/oren503/Desktop/nand2tetris/tools/TextComparer.sh DriveTests/test5/OGT.xml DriveTests/test5/T.xml
+
+
+## MyTests
+./JackAnalyzer ./MyTests

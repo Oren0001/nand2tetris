@@ -1,0 +1,36 @@
+class Main {
+	function void main() {
+		var int result;
+		do Output.printString("1 shifted to the right resulted in: ");
+		let result = #1;
+		do Output.printInt(result);
+		if (result = 0) {
+			do Output.printString(" Correct!");
+		} else {
+			do Output.printString(" Wrong!");
+		}
+		do Output.println();
+
+		do Output.printString("1 shifted to the left resulted in: ");
+		let result = ^1;
+		do Output.printInt(result);
+		if (result = 2) {
+			do Output.printString(" Correct!");
+		} else {
+			do Output.printString(" Wrong!");
+		}
+		do Output.println();
+
+		do Output.printString("18 shifted twice to the right and twice to the left resulted in: ");
+		let result = ^^##18;
+		do Output.printInt(result);
+		if (result = 16) {
+			do Output.printString(" Correct!");
+		} else {
+			do Output.printString(" Wrong!");
+		}
+		do Output.println();
+		
+		return;
+	}
+}

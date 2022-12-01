@@ -1,0 +1,12 @@
+function valid.main 0
+push constant 1
+neg
+gt
+and
+not
+if-goto 0
+goto 1
+label 0
+label 1
+push constant 0
+return
